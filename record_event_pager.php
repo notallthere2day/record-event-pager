@@ -1,9 +1,9 @@
 <?php
-namespace NorwichCTU\RecordEventPager;
+namespace NorwichCTU\record_event_pager;
 
 use \REDCap;
 
-class RecordEventPager extends \ExternalModules\AbstractExternalModule {
+class record_event_pager extends \ExternalModules\AbstractExternalModule {
 	public function __construct() {
 		parent::__construct();
 		// Other code to run when object is instantiated
