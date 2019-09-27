@@ -1,7 +1,7 @@
 {
 	"name": "Record and Event Pager",
 
-	"namespace": "NorwichCTU\\RecordEventPager",
+	"namespace": "NorwichCTU\\record_event_pager",
 
 	"description": "Adds a paging control to the bottom of data entry forms, allowing the user to navigate quickly and easily between different events in a record, and records in a project.",
 
