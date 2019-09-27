@@ -1,0 +1,67 @@
+{
+	"name": "Record and Event Pager",
+
+	"namespace": "NorwichCTU\\RecordEventPager",
+
+	"description": "Adds a paging control to the bottom of data entry forms, allowing the user to navigate quickly and easily between different events in a record, and records in a project.",
+
+	"documentation": "README.md",
+
+	"authors": [
+		{
+			"name": "Antony Colles",
+			"email": "a.colles@uea.ac.uk",
+			"institution": "Norwich Clinical Trials Unit"
+		}
+	],
+
+	"permissions": [
+		"redcap_data_entry_form"
+	],
+	
+	"enable-every-page-hooks-on-system-pages": false,	
+
+	"links": {
+		"project": [
+
+		],
+		"control-center": [
+
+		]
+	},
+
+	"no-auth-pages": [
+
+	],
+
+	"project-settings": [
+	{
+		"key": "show-event-pager",
+		"name": "Display Event Pager",
+		"type": "checkbox",
+		"required": true
+	},
+	{
+		"key": "show-record-pager",
+		"name": "Display Record Pager",
+		"type": "checkbox",
+		"required": true
+	}
+
+	],
+
+	"system-settings": [
+
+	],
+
+	"crons": [
+
+	],
+
+	"compatibility": {
+		"php-version-min": "",
+		"php-version-max": "",
+		"redcap-version-min": "",
+		"redcap-version-max": ""
+	}
+}
